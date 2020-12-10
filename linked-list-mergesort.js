@@ -114,6 +114,23 @@ class LinkedList {
 }
 
 
+//// drills ////
+
+const list = new LinkedList; 
+
+list.insertFirst(8)
+list.insertFirst(27)
+list.insertFirst(58)
+list.insertFirst(2)
+list.insertFirst(8)
+list.insertFirst(63)
+list.insertFirst(1)
+list.insertFirst(29)
+list.insertFirst(85)
+
+function mergeSort(list) {
+  
+}
 
 
 
