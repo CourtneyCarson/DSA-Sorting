@@ -25,6 +25,14 @@ function qSort(array, start = 0, end = array.length) {
   array = qSort(array, middle + 1, end);
   return array;
 }
+
+function swap(array, i, j) {
+  const tmp = array[i];
+  array[i] = array[j];
+  array[j] = tmp;
+};
+
+
 /* Lomuto's Algorithm */
 function partition(array, start, end) {
   const pivot = array[end - 1];
